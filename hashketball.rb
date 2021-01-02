@@ -5,14 +5,14 @@ require 'pry'
 def game_hash
   {
     :home => {
-      :team_name => {},
-      :colors => {},
-      :players => {}
+      :team_name => "Brooklyn Nets",
+      :colors => ["Black", "White"],
+      :players => []
     },
     :away => {
-      :team_name => {},
-      :colors => {},
-      :players => {}
+      :team_name => "Charlotte Hornets",
+      :colors => ["Turquoise", "Purple"],
+      :players => []
     },
   }
 end
